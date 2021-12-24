@@ -5,9 +5,8 @@ rule RAN_Pay2Key_Dec_2021_1
         author = "Arkbird_SOLG"
         date = "2021-12-21"
         reference = "Internal Research"
-        hash1 = "c7d6719bbfb5baaadda498bf5ef49a3ada1d795b9ae4709074b0e3976968741e"
-        hash2 = "947e357bfdfe411be6c97af6559fd1cdc5c9d6f5cea122bf174d124ee03d2de8"
-        hash3 = "9a7daafc56300bd94ceef23eac56a0735b63ec6b9a7a409fb5a9b63efe1aa0b0"
+        hash1 = "f7130464821513644ab5aa4b495126f7ae62e56f10d300d7ca73fb9561211695"
+        hash2 = "83c705e9696ea77e763ec44bfcb6a635935148ab4a36c4f04b394cd758456190"
         tlp = "white"
         adversary = "Pay2Key"
     strings:
@@ -18,4 +17,3 @@ rule RAN_Pay2Key_Dec_2021_1
     condition:
       uint16(0) == 0x5A4D and filesize > 600KB and all of ($s*) 
 }
-
