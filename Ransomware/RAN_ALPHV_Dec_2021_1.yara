@@ -6,9 +6,8 @@ rule RAN_ALPHV_Dec_2021_1
         date = "2021-12-09"
         reference = "Internal Research"
         hash1 = "3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83"
-        hash2 = "7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e"
-	hash3 = "cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae"
-	hash4 = "731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161"
+        hash2 = "cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae"
+        hash3 = "7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e"
         tlp = "white"
         adversary = "BlackCat"
     strings:
@@ -18,6 +17,4 @@ rule RAN_ALPHV_Dec_2021_1
         $s4 = { 83 c4 0c c7 45 ?? 00 00 00 00 c7 45 ?? 02 00 00 89 89 75 ?? 8d 45 ?? c7 45 ?? 00 00 00 00 c7 45 ?? 00 00 00 00 6a 10 50 57 e8 [3] 00 83 f8 ff 0f 84 ?? 02 00 00 f6 45 9c ff }
     condition:
        uint16(0) == 0x5A4D and filesize > 300KB and all of ($s*) 
-}  
-
-
+}
