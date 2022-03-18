@@ -9,8 +9,8 @@ rule RAN_ALPHV_Feb_2022_1 : alphav blackcat ransomware
         hash1 = "7bb383b31d1b415bc067e612203cc6bda53e914f7ca5291299e92f59d47cabf8"
         hash2 = "bacedbb23254934b736a9daf6de52620c9250a49686d519ceaf0a8d25da0a97f"
         // Updated with "ALPHV MORPH" variant
-	    hash3 = "3a96c3075b8494fe6a76c6325946ab3f200e75ce26ad886446ea1394b5ac6ba1"
-	    hash4 = "6dd995d896a9a593b2c48d09da60bd83866d8577273f36d38788d83ad8173e68"
+	hash3 = "3a96c3075b8494fe6a76c6325946ab3f200e75ce26ad886446ea1394b5ac6ba1"
+	hash4 = "6dd995d896a9a593b2c48d09da60bd83866d8577273f36d38788d83ad8173e68"
         tlp = "white"
         adversary = "BlackCat"
     strings:
