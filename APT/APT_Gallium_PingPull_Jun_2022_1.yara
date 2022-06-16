@@ -1,4 +1,4 @@
-rule APT_Gallium_PingPull_Jun_2022_1 : gallium pingPull RAT
+rule APT_Gallium_PingPull_Jun_2022_1 : gallium pingPull RAT {
    meta:
         description = "Detect the PingPull RAT used by the Gallium group"
         author = "Arkbird_SOLG"
