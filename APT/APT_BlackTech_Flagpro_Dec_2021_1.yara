@@ -9,7 +9,7 @@ rule APT_BlackTech_Flagpro_Dec_2021_1
         hash3 = "e81255ff6e0ed937603748c1442ce9d6588decf6922537037cf3f1a7369a8876"
         hash4 = "bd431a53c65170dee9ff174ea2865b49edf395023bd5d69f61150d83babba52d"
         date = "2021-12-30"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "BlackTech"
     strings:
         $s1 = { 8d 44 24 10 50 8d 4c 24 18 51 6a 00 8d 94 24 3c 0c 00 00 6a 00 89 54 24 2c c7 44 24 28 4a 00 00 00 ff 15 [3] 00 85 c0 0f 84 [2] 00 00 33 db 39 5c 24 14 0f 86 [2] 00 00 8b }

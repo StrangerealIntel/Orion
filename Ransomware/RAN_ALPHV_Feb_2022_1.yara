@@ -11,7 +11,7 @@ rule RAN_ALPHV_Feb_2022_1 : alphav blackcat ransomware
         // Updated with "ALPHV MORPH" variant
 	hash3 = "3a96c3075b8494fe6a76c6325946ab3f200e75ce26ad886446ea1394b5ac6ba1"
 	hash4 = "6dd995d896a9a593b2c48d09da60bd83866d8577273f36d38788d83ad8173e68"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "BlackCat"
     strings:
         $s1 = { 56 53 e8 [3] 00 85 c0 74 ?? 8d 4c 24 08 8d 94 24 e0 00 00 00 ff b4 24 c0 00 00 00 e8 [3] 00 83 c4 04 83 7c 24 08 00 [2-6] 8b 44 24 0c 85 c0 74 18 f7 44 24 10 ff ff ff 7f 74 0e 50 6a 00 ff 35 }

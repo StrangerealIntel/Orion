@@ -8,7 +8,7 @@ rule RAN_Karma_Dec_2021_1
         hash1 = "34629751d8202be456dcf149b516afefc980a9128dd6096fd6286fee530a0d20"
         hash2 = "4dec9a9044631caef283c7f39a576e4e5c1cc1e6a97ce5c60936a3a3d0097818"
         hash3 = "84d24a16949b5a89162411ab98ab2230128d8f01a3d3695874394733ac2a1dbd"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Karma"
    strings:
         $s1 = { 83 e9 04 66 90 0f b7 02 8d 49 02 66 89 01 8d 52 02 66 85 c0 75 ef 68 00 08 00 00 6a 08 ff 15 ?? 40 40 00 50 ff 15 ?? 40 40 00 8b f8 b9 [2] 40 00 2b cf 89 [15] 00 00 0f b7 04 11 8d 52 02 66 89 02 66 85 c0 75 f1 68 [2] 40 00 6a 00 6a 00 6a 00 6a 02 6a 01 6a 00 6a 00 6a 00 68 90 01 00 00 6a 00 6a 00 6a 00 6a 2d ff 15 1c 40 40 00 6a 00 89 }

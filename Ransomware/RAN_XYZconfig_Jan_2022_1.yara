@@ -6,7 +6,7 @@ rule RAN_XYZconfig_Jan_2022_1
         date = "2022-01-07"
         reference = "https://id-ransomware.blogspot.com/2022/01/xyzconfig-ransomware.html"
         hash1 = "25d18c3823a3b210a18e69c823ce4c59fab298c315ac2a5d891027921d1c6d7e"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
         level = "Experimental"
     strings:

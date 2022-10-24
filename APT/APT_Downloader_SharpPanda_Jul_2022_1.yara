@@ -9,7 +9,7 @@ rule APT_Downloader_SharpPanda_Jul_2022_1 : downloader sharppanda
         hash2 = "1e18314390302cd7181b710a03a456de821ad85334acfb55f535d311dd6b3d65"
         hash3 = "c4500ad141c595d83f8dba52fa7a1456959fb0bc2ee6b0d0f687336f51e1c14e"
         hash4 = "065d399f6e84560e9c82831f9f2a2a43a7d853a27e922cc81d3bc5fcd1adfc56"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "SharpPanda"
    strings:
         $s1 = { b8 [3] 10 e8 [2] 01 00 6a 07 33 db 33 c0 59 89 5d dc 89 4d e0 66 89 45 cc 89 5d fc 8d 7d e4 ab ab ab 89 5d e4 89 5d e8 89 5d ec 33 c0 89 5d c4 89 4d c8 66 89 45 b4 6a 01 c6 45 fc 02 e8 [2] 00 00 8b f0 59 89 75 ?? e8 [2] ff ff 6a 01 56 0f b6 f8 e8 [2] 00 00 59 59 85 ff 75 }

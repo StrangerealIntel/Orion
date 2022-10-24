@@ -7,7 +7,7 @@ rule RAN_ELF_ALPHV_Dec_2021_1
         reference = "Internal Research"
         hash1 = "5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42"
         hash2 = "f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "BlackCat"
     strings:
         $s1 = { 5b 89 ce c7 44 24 14 00 00 00 00 c7 44 24 10 00 00 00 00 81 c3 f5 bd 06 00 83 ec 08 8d 44 24 18 68 00 00 08 00 50 e8 d6 28 ea ff 83 c4 10 83 f8 ff 74 28 8b 44 24 10 83 f8 ff 89 44 24 0c 74 39 8b 4c 24 14 83 f9 ff 89 4c 24 0c 74 2c 89 46 04 89 4e 08 c7 06 00 00 00 00 eb 17 e8 81 28 ea ff 8b 00 c7 46 04 00 00 00 00 89 46 08 c7 06 01 00 00 00 83 c4 30 5e 5f 5b c3 c7 44 24 18 00 00 00 00 83 ec 04 8d 83 5c f1 ff ff 8d 74 24 1c 8d bb d8 ee fa ff 8d 54 24 10 b9 01 }

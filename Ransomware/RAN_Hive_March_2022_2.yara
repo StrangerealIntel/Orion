@@ -9,7 +9,7 @@ rule RAN_Hive_March_2022_2 : hive v5 x86
     hash2 = "a464ae4b0a75d8673cc95ea93c56f0ee11120f71726cc891f9c7e8d4bec53625"
     hash3 = "8b8814921dc2b2cb6ea3cfc7295803c72088092418527c09b680332c92c33f1f"
     hash4 = "bd7f4d6a3f224536879cca70b940b16251c56707124d52fb09ad828a889648cd"
-    tlp = "white"
+    tlp = "Clear"
     adversary = "RAAS"
   strings:
       $s1 = { 5c 00 5c 00 3f 00 5c 00 00 00 5c 00 5c 00 3f 00 5c 00 55 00 4e 00 43 00 5c 00 5c 5c 2e 5c 70 69 70 65 5c 5f 5f [4] 5f 61 6e 6f 6e 79 6d 6f 75 73 5f 70 69 70 65 31 5f 5f 2e [3] 00 [3] 00 }

@@ -7,7 +7,7 @@ rule RAN_TellYouThePass_Dec_2021_1
         reference = "Internal Research"
         hash1 = "460b096aaf535b0b8f0224da0f04c7f7997c62bf715839a8012c1e1154a38984"
         hash2 = "4d15aa5d68b0e8b081c18d0ee5c06cc1758d17246a8d01b3c8ac48d1ef07610b"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "TellYouThePass"
     strings:
         $s1 = { 48 83 ec 40 48 89 6c 24 38 48 8d 6c 24 38 31 c0 48 8d 0d ?? 38 32 00 ba 01 00 00 00 f0 0f b1 11 0f 94 c1 84 c9 74 47 48 8b 05 20 c4 2a 00 48 8b 0d 89 c1 2a 00 48 89 0c 24 48 89 44 24 08 44 0f 11 7c 24 10 48 c7 44 24 20 00 00 00 00 e8 e4 32 00 00 45 0f 57 ff 65 4c 8b 34 25 28 00 00 00 4d 8b b6 00 00 00 00 48 83 7c 24 28 00 74 0a 48 8b 6c 24 38 48 83 c4 40 c3 e8 19 55 03 00 45 0f 57 ff 65 4c 8b 34 25 28 00 00 00 4d 8b b6 00 00 00 00 8b 04 24 48 89 44 24 30 e8 d8 83 00 00 48 8d 05 ?? 63 19 00 bb 3c 00 00 00 e8 c7 8c 00 00 48 8b 44 24 30 66 90 e8 bb 89 00 00 48 8d 05 2f 80 18 00 bb 03 00 00 00 e8 aa 8c 00 00 e8 25 84 00 00 48 8d 05 ?? 56 19 00 bb 33 00 00 00 e8 }

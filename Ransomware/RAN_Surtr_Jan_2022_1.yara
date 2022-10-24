@@ -7,7 +7,7 @@ rule RAN_Surtr_Jan_2022_1
         reference = "Internal Research"
         hash1 = "40e5bb0526169c02126ffa60a09041e5e5453a24b26bc837036748b150fa3fae"
         hash2 = "7dfcbf301686c56d31874642114b1c6ff8f78dfd76f4b88c2f056b7aff8fb19b"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
     strings:
         $s1 = { 4c 8d 35 15 27 11 00 c7 44 24 20 00 00 00 f0 41 b9 18 00 00 00 4c 8d 05 a0 29 11 00 33 d2 48 8d 4d 00 ff 15 24 6b 10 00 8b d8 85 c0 74 4b 4c 8d 35 ff 26 11 00 4c 8d 4d f8 ba 10 66 00 00 41 b8 01 00 00 00 48 8b 4d 00 ff 15 0e 6b 10 00 8b d8 85 c0 74 25 4c 8d 35 d1 29 11 00 c7 45 d0 01 00 00 00 45 33 c9 4c 8d 45 d0 41 8d 51 04 48 8b 4d f8 ff 15 c5 6a 10 00 8b d8 48 8d 45 c0 48 89 44 24 28 48 89 7c 24 20 45 33 c9 33 d2 45 8d 41 08 48 8b 4d f8 ff 15 d2 6a 10 00 85 c0 75 0c 48 8d 0d 9f 29 11 00 e8 52 f2 ff ff 8b 4d c0 e8 5a 09 0f 00 4c 8b e8 48 8d 45 c0 48 89 44 24 28 4c 89 6c 24 20 45 33 c9 33 d2 45 8d 41 08 48 8b 4d f8 ff 15 96 6a 10 00 85 }

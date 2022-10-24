@@ -9,7 +9,7 @@ rule TA_Lorec53_OutSteel_Feb_2022_1
         hash2 = "29decd1e88b297aa67fef6e14e39889cfd2454c581b9371a1003b63a28324d0f"
         hash3 = "5fd4e486bd7e12454f67ba8fcdaa9afc88b4d1c29705b0cffc9d32000700d314"
         hash4 = "d0aad99f10bdd6f6af2f7a0f6c319ed7d126de4d1ff44ca86858e7ffc17cc39b"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "Lorec53"
         // Note : This stealer is very basic stealer compiled with autoit to exe and can have easily false positives in attribution
    strings:

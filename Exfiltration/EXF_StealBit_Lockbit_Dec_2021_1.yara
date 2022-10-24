@@ -9,7 +9,7 @@ rule MAL_StealBit_Lockbit_Dec_2021_1
         hash2 = "3407f26b3d69f1dfce76782fee1256274cf92f744c65aa1ff2d3eaaaf61b0b1d"
         hash3 = "8b5f88aeaad4d50c90e0c6dabc5145ef73063e098b22ed7820168aa0954505b2"
         hash4 = "61ac7ac908791456f2f5827dfd85be27b02027383f76dfd31aba7eff89c1aaee"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { 83 ec 20 83 65 fc 00 8d 4d fc e8 b6 18 00 00 84 c0 74 41 6a 02 59 8d 45 f8 89 4d e4 89 45 e0 8d 55 e8 89 4d ec 8d 45 f0 68 40 38 00 00 8d 4d e0 c7 45 f8 20 b2 40 00 c7 45 fc 2c b2 40 00 c7 45 f0 38 b2 40 00 c7 45 f4 54 b2 40 00 89 45 e8 e8 d1 16 00 00 }

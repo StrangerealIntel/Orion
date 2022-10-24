@@ -8,7 +8,7 @@ rule RAN_Darky_Lock_Jun_2022_1 : darkylock ransomware
         hash1 = "9e67a1c67e3768e7f1f5fc4509119d1999722c6fc349a6398c9b72819e6ebe8d"
         hash2 = "393a7a313548a4edc025fb47c6c8e614ecc2b41db880ecb59f20cf238e9a864c"
         hash3 = "fc28d2eaee1fd3416fe3e0cd4669df3ac178c577e3a8c386b1c34c3146afb8d6"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { 81 ec 90 00 00 00 56 57 c7 45 f8 00 00 00 00 ff 15 2c 50 41 00 89 45 e4 c7 45 e0 30 75 00 00 68 3f 00 0f 00 6a 00 6a 00 ff 15 04 50 41 00 89 45 e8 83 7d e8 00 0f 84 f5 01 00 00 c7 45 f0 00 00 00 00 eb 09 8b 45 f0 83 c0 01 89 45 f0 83 7d f0 2c 0f 83 cf 01 00 00 6a 2c 8b 4d f0 8b 14 8d 00 40 41 00 52 8b 45 e8 50 ff 15 20 50 41 00 89 45 fc }

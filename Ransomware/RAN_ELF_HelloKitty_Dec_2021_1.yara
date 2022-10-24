@@ -9,7 +9,7 @@ rule RAN_ELF_HelloKitty_Dec_2021_1
         hash2 = "8f3db63f70fad912a3d5994e80ad9a6d1db6c38d119b38bc04890dfba4c4a2b2"
         hash3 = "ca607e431062ee49a21d69d722750e5edbd8ffabcb54fa92b231814101756041"
         hash4 = "b4f90cff1e3900a3906c3b74f307498760462d719c31d008fc01937f5400fb85"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "RAAS"
     strings:
         $s1 = { 55 73 61 67 65 3a 25 73 20 5b 2d 6d 20 28 [0-2] 31 30 2d 32 30 2d 32 35 2d 33 33 2d 35 30 29 20 [0-5] 5d 20 53 74 61 72 74 20 50 61 74 68 20 0a 00 77 6f 72 6b }

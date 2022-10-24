@@ -7,7 +7,7 @@ rule APT_SideWinder_WarHawk_Oct_2022_1 : sidewinder apt warhawk
       date = "2022-10-22"
       hash1 = "624c6b56ee3865f4a5792ad1946a8e86b876440a5af3bac22ac1dee92f1b7372"
       hash2 = "7d3574c62df44b74337fc74ec7877792b4ffa1486a49bb19668433c3ca8836b5"
-      tlp = "clear"
+      tlp = "Clear"
       adversary = "SideWinder"
    strings:
       $s1 = { a1 04 ?? 42 00 33 c5 89 45 fc 8b 45 08 53 56 57 33 db 89 [2-5] 53 53 53 6a 01 68 [2] 42 00 8b f2 c7 ?? f8 [0-3] 00 00 00 00 8b f9 ff 15 [2] 41 00 53 53 6a 03 53 53 6a 50 68 80 ?? 42 00 50 89 ?? e8 [0-3] ff 15 [2] 41 00 }

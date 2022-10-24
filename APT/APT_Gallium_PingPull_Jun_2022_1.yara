@@ -10,7 +10,7 @@ rule APT_Gallium_PingPull_Jun_2022_1 : gallium pingPull RAT
         hash3 = "de14f22c88e552b61c62ab28d27a617fb8c0737350ca7c631de5680850282761"
         hash4 = "f86ebeb6b3c7f12ae98fe278df707d9ebdc17b19be0c773309f9af599243d0a3"
         hash5 = "fc2147ddd8613f08dd833b6966891de9e5309587a61e4b35408d56f43e72697e"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "gallium"
    strings: 
         $s1 = { 48 8b 05 [2] 01 00 48 33 c4 48 89 85 [2] 00 00 [0-1] 33 ?? 48 8d [2-5] b9 02 02 00 ( 00 [3-7] 24 [1-4] ff | 00 45 8b e6 41 8b f6 ff ) 15 [2] 00 00 48 8d 8d [2] 00 00 33 d2 41 b8 04 01 00 00 [5] 00 00 e8 [2] 00 00 48 8d [2-3] 48 8d 8d [2] 00 00 c7 [2-3] 04 01 00 00 ff 15 [2] 00 00 48 8d 8d [2] 00 00 c7 44 24 40 7f 00 00 01 8b 7c 24 40 ff 15 [2] 00 00 48 85 c0 74 09 48 8b 40 18 48 8b 08 8b 39 8b cf ff 15 [2] 00 00 48 8d 8d [2] 00 00 33 d2 41 b8 04 01 00 00 }

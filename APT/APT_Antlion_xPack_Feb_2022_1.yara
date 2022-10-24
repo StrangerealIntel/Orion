@@ -7,7 +7,7 @@ rule APT_Antlion_xPack_Feb_2022_1
         date = "2022-02-04"
         hash1 = "390460900c318a9a5c9026208f9486af58b149d2ba98069007218973a6b0df66"
         hash2 = "12425edb2c50eac79f06bf228cb2dd77bb1e847c4c4a2049c91e0c5b345df5f2"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "Antlion"
    strings:
         $s1 = { 1f 40 8d ?? 00 00 01 25 d0 ?? 00 00 04 28 ?? 00 00 0a 0a 03 1f 3d }

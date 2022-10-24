@@ -8,7 +8,7 @@ rule APT_Molerats_NimbleMamba_Jan_2022_1
         hash1 = "430c12393a1714e3f5087e1338a3e3846ab62b18d816cc4916749a935f8dab44"
         hash2 = "2a559a5178e0803c0a4067376cf279d00cade84b37158f03b709e718d34f65f9"
         hash2 = "c61fcd8bed15414529959e8b5484b2c559ac597143c1775b1cec7d493a40369d"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "Molerats"
    strings:
         $s1 = { 72 f3 00 00 70 38 [2] 00 00 [3] 00 [4] 00 [3] 01 00 [4] 00 ?? 38 [2] 00 00 [2] 01 00 [3] 00 00 ?? 72 ?? 01 00 70 38 [2] 00 00 [3] 00 ?? 38 [2] 00 00 [3] 00 00 }

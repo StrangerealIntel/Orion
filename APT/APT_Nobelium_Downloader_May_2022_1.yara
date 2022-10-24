@@ -9,7 +9,7 @@ rule APT_Nobelium_Downloader_May_2022_1 : apt nobelium downloader
         hash1 = "6618a8b55181b1309dc897d57f9c7264e0c07398615a46c2d901dd1aa6b9a6d6"
         hash2 = "23a09b74498aea166470ea2b569d42fd661c440f3f3014636879bd012600ed68"
         hash3 = "6fc54151607a82d5f4fae661ef0b7b0767d325f5935ed6139f8932bc27309202"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Nobelium"
    strings:
         $s1 = { 8b 00 ba 5c 00 00 00 89 01 48 8d 8d 10 02 00 00 e8 ?? 26 00 00 48 8b f8 48 85 c0 75 05 48 8b cb eb 10 ba 04 01 00 00 48 8b cf e8 ?? 51 00 00 48 8b c8 33 c0 4c 8d 85 10 02 00 00 f3 aa 48 8d 8d 10 02 00 00 48 8d 15 [2] 01 00 e8 ?? f6 ff ff 48 8d 8d 10 02 00 00 ff 15 [2] 01 00 83 f8 ff 0f 84 b6 00 00 00 b9 10 00 00 00 e8 ?? 13 00 00 4c 8b c8 48 8b f8 33 c0 b9 10 00 00 00 f3 aa 49 8b f9 48 8b d3 0f 1f 84 00 00 00 00 00 42 0f b6 8c 32 [3] 00 48 83 c2 03 88 0f 48 8d 7f 01 48 }

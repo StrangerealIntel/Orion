@@ -9,7 +9,7 @@ rule RAN_Quantum_Apr_2022_1 : ransomware quantum x64
         hash2 = "6143d920ebdd5e9b1db7425916417c0896139f425493a8fcd63d62dac80779f1"
         hash3 = "0789a9c0a0d4f3422cb4e9b8e64f1ba92f7b88e2edfd14b7b9a7f5eee5135a4f"
         hash4 = "5a9028518866ce9fc3847f4704060f71e1c572132ec3f1845f29023a659f9daf"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { 48 89 ?? 24 60 4c [2-4] 4c 89 74 24 58 48 [2-5] 24 ?? 48 [0-3] 89 5c 24 }

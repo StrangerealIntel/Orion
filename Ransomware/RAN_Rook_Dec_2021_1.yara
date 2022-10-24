@@ -7,7 +7,7 @@ rule RAN_Rook_Dec_2021_1 {
         hash1 = "15a67f118c982ff7d094d7290b4c34b37d877fe3f3299840021e53840b315804"
         hash2 = "f87be226e26e873275bde549539f70210ffe5e3a129448ae807a319cbdcf7789"
         hash3 = "c2d46d256b8f9490c9599eea11ecef19fde7d4fdd2dea93604cee3cea8e172ac"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Rook"
    strings:
         $s1 = { fc 41 5b eb 08 48 ff c6 88 17 48 ff c7 8a 16 01 db 75 0a 8b 1e 48 83 ee fc 11 db 8a 16 72 e6 8d 41 01 }

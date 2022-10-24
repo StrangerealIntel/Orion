@@ -6,7 +6,7 @@ rule RAN_ELF_TellYouThePass_Dec_2021_1
         date = "2021-12-21"
         reference = "Internal Research"
         hash1 = "5c8710638fad8eeac382b0323461892a3e1a8865da3625403769a4378622077e"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "TellYouThePass"
         level="Experimental"
     strings:

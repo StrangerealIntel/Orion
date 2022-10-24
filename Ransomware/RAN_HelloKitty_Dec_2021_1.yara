@@ -8,7 +8,7 @@ rule RAN_HelloKitty_Dec_2021_1
         hash1 = "c7d6719bbfb5baaadda498bf5ef49a3ada1d795b9ae4709074b0e3976968741e"
         hash2 = "947e357bfdfe411be6c97af6559fd1cdc5c9d6f5cea122bf174d124ee03d2de8"
         hash3 = "9a7daafc56300bd94ceef23eac56a0735b63ec6b9a7a409fb5a9b63efe1aa0b0"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "RAAS"
     strings:
         $s1 = { 68 00 00 00 f0 6a 01 6a 00 6a 00 50 c7 06 00 00 00 00 ff 15 08 20 ?? 00 85 c0 75 08 b8 c4 ff ff ff 5e 5d c3 57 ff 75 0c 8b 7d 10 57 ff 75 14 ff 15 00 20 ?? 00 6a 00 ff 75 14 85 c0 75 0f ff 15 04 20 ?? 00 5f b8 c4 ff ff ff 5e 5d c3 ff 15 04 20 ?? 00 89 3e 33 c0 5f }

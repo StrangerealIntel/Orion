@@ -6,7 +6,7 @@ rule APT_APT23_Smilesvrdrp_Dec_2021_1
         reference = "https://cyberworkx.in/2021/12/22/cyber-espionage-hackers-from-tropic-trooper-are-targeting-the-transportation-sector/"
         date = "2021-12-26"
         hash1 = "c6cac51035ef7df22c8ff3b5ba204721cdae97bc4728b0de68db1358c0c04035"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "APT23"
    strings:
         $s1 = { 83 c4 0c 8d 84 24 10 14 00 00 68 78 a3 41 00 68 58 17 43 00 68 d0 76 41 00 50 ff 15 7c 21 41 00 83 c4 10 8d 94 24 10 04 00 00 8d 8c 24 10 14 00 00 e8 30 ef ff ff 85 c0 0f 84 db 00 00 00 8d 8c 24 10 04 00 00 e8 ac ef ff ff 85 c0 0f 84 c7 00 00 00 68 ff 03 00 00 8d 84 24 15 0c 00 00 c6 84 24 14 0c 00 00 00 6a 00 50 e8 48 97 00 00 83 c4 0c 8d 84 24 10 0c 00 00 68 38 a3 41 00 68 58 1f 43 00 68 dc 76 41 00 68 00 04 00 00 50 e8 d4 10 00 00 83 c4 14 8d 84 24 10 0c 00 00 6a 00 50 8d 84 24 18 04 00 00 50 ff 15 54 20 41 00 83 }

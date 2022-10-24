@@ -8,7 +8,7 @@ rule RAN_Sugar_Jan_2022_1
         hash1 = "315045e506eb5e9f5fd24e4a55cda48d223ac3450037586ce6dab70afc8ddfc9"
         hash2 = "09ad72ac1eedef1ee80aa857e300161bc701a2d06105403fb7f3992cbf37c8b9"
         hash3 = "1d4f0f02e613ccbbc47e32967371aa00f8d3dfcf388c39f0c55a911b8256f654"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { 6a 40 68 00 30 00 00 8b 45 f8 ff 70 50 6a 00 ff 15 04 20 40 00 89 45 f4 83 7d f4 00 0f 84 13 02 00 00 8b 45 f8 ff 70 54 ff 75 08 ff 75 f4 e8 4a f8 ff ff 83 c4 0c 83 65 e4 00 eb 07 8b 45 e4 40 89 45 e4 8b 45 f8 0f b7 40 06 48 39 45 e4 7f 3b 8b 45 e0 8b 4d 08 03 48 3c 6b 45 e4 28 8d 84 01 f8 00 00 00 89 45 d8 8b 45 d8 ff 70 10 8b 45 d8 8b 4d 08 }

@@ -7,7 +7,7 @@ rule RAN_Pay2Key_Dec_2021_1
         reference = "Internal Research"
         hash1 = "f7130464821513644ab5aa4b495126f7ae62e56f10d300d7ca73fb9561211695"
         hash2 = "83c705e9696ea77e763ec44bfcb6a635935148ab4a36c4f04b394cd758456190"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Pay2Key"
     strings:
         $s1 = { 6a ff 68 e8 55 4b 00 64 a1 00 00 00 00 50 83 ec 14 53 56 57 a1 70 60 4e 00 33 c5 50 8d 45 f4 64 a3 00 00 00 00 8b f9 8d 5f 10 c7 45 ec 00 00 00 00 53 6a 01 68 01 68 00 00 ff 77 04 ff 15 14 b0 4b 00 c7 45 e0 00 00 00 00 c7 45 e4 00 00 00 00 c7 45 e8 00 00 00 00 8d 45 f0 c7 45 fc 00 00 00 00 50 6a 00 6a 00 6a 01 ff 77 0c ff 33 ff 15 0c b0 4b 00 85 c0 74 39 ff 75 f0 e8 9d 0f 03 00 ff 75 f0 8b f0 6a 00 56 e8 d1 d7 04 00 83 c4 10 8d 45 f0 50 56 6a 00 6a 01 ff 77 0c ff 33 ff 15 0c b0 4b 00 85 }

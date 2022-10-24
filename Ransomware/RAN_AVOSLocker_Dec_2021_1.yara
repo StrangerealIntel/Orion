@@ -8,7 +8,7 @@ rule RAN_AVOSLocker_Dec_2021_1
         hash1 = "718810b8eeb682fc70df602d952c0c83e028c5a5bfa44c506756980caf2edebb"
         hash2 = "bd88d415032eb24091c352fc0732b31116f44a78d9333037bd7608289608d3cd"
 	hash3 = "c0a42741eef72991d9d0ee8b6c0531fc19151457a8b59bdcf7b6373d1fe56e02"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "AVOSLocker"
     strings:
         $s1 = { 55 8b ec 6a ff 68 [3] 00 64 a1 00 00 00 00 50 83 ec 44 a1 08 80 4d 00 33 c5 89 45 f0 53 56 57 50 8d 45 f4 64 a3 00 00 00 00 8b f1 8b 3d 08 20 4b 00 68 00 00 00 f0 6a 01 6a 00 6a 00 56 c7 06 00 00 00 00 ff d7 85 c0 75 2b ff 15 ?? 20 4b 00 6a 08 6a 01 6a 00 68 ?? 6f 4b 00 56 8b d8 ff d7 85 c0 75 11 6a 28 6a 01 50 68 ?? 6f 4b 00 56 ff d7 85 c0 74 1e 8b c6 8b 4d f4 64 89 0d 00 00 00 00 59 5f 5e 5b 8b 4d f0 33 cd e8 ?? f8 fd ff 8b e5 5d c3 53 ff 15 ?? 20 4b 00 68 ?? 6f 4b 00 8d 4d d8 e8 [2] fc ff 8d 45 d8 c7 45 fc 00 00 00 00 50 8d 4d b0 e8 a5 00 00 00 68 [2] 4d 00 8d 45 b0 50 e8 }

@@ -7,7 +7,7 @@ rule APT_Earth_Berberoka_Tifa_Oct_2022_1 : diceyf tifa downloader
       date = "2022-10-20"
       hash1 = "8aacb0fd6ea3143d0e7a6b56f7b90c3be760bcc8abbbb29c4334b50f06e822f"
       level = "experimental"
-      tlp = "clear"
+      tlp = "Clear"
       adversary = "Earth Berberoka"
    strings:
       $s1 = { 7b 00 7b 00 22 00 43 00 6f 00 6d 00 70 00 75 00 74 00 65 00 72 00 4e 00 61 00 6d 00 65 00 22 00 3a 00 22 00 7b 00 30 00 7d 00 22 00 2c 00 22 00 47 00 75 00 69 00 64 00 22 00 3a 00 22 00 7b 00 31 00 7d }

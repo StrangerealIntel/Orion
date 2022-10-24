@@ -8,7 +8,7 @@ rule RAN_Driver_P2P_Clop_Dec_2021_1
         hash1 = "e58b80e4738dc03f5aa82d3a40a6d2ace0d7c7cfd651f1dd10df76d43d8c0eb3"
         hash2 = "d98bdf3508763fe0df177ef696f5bf8de7ff7c7dc68bb04a14a95ec28528c3f9"
         hash3 = "6d5de7e73803f09fbb98782c071f1882b5bfb681631801f55bc162efbc0b1d03"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "TA505"
     strings:
         $s1 = { c7 84 24 a4 00 00 00 f6 00 00 00 8b 4c 24 54 e8 17 fa ff ff 8b 54 24 24 8b 8c 24 a4 00 00 00 e8 a7 fa ff ff 4c 8b 1d b0 49 00 00 4c 89 5c 24 70 c7 84 24 6c 01 00 00 00 00 00 00 eb 11 8b 84 24 6c 01 00 00 83 c0 01 89 84 24 6c 01 00 00 83 bc 24 6c 01 00 00 04 7d 02 eb e3 48 8d 05 1a 69 00 00 48 89 44 24 78 c7 44 24 2c be 00 00 00 8b 44 24 2c 25 a4 00 00 00 8b 4c 24 2c 83 c1 01 99 f7 f9 8b c8 8b 44 24 2c 0f af c1 89 44 24 2c c7 84 24 b8 00 00 00 9d 00 00 00 8b 8c 24 b8 00 00 00 0f af 8c 24 b8 00 00 00 8b 44 24 2c 2b c1 89 44 24 2c c7 84 24 80 00 00 00 f0 3f 03 00 8b 05 1c 59 00 00 89 84 24 84 00 00 00 c7 44 24 6c 67 00 00 00 48 8d 44 24 6c 48 89 44 24 40 48 8b 44 24 40 8b 4c 24 6c 8b 00 23 c1 8b 4c 24 6c 83 c1 01 99 f7 f9 8b c8 8b 44 24 6c 0f af c1 89 44 24 6c 8b 05 dd 58 00 00 89 84 24 88 00 00 00 }

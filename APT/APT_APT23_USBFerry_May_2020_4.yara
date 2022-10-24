@@ -6,7 +6,7 @@ rule APT_APT23_USBFerry_May_2020_4
         reference = "https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf"
         date = "2020-05-14"
         hash1 = "1f383eb5f614669404ef00d693510f40ca87c30204ef269a0a19aa4564942444."
-        tlp = "White"
+        tlp = "Clear"
         adversary = "APT23"
    strings:
         $s1 = { 57 8d [6-7] 00 10 00 00 51 e8 [2] 00 00 68 ff 03 00 00 8d [3-5] 53 52 88 [3-5] e8 [2] 00 00 8d [5-6] 50 56 8d }

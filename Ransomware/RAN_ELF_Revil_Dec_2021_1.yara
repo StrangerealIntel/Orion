@@ -8,7 +8,7 @@ rule RAN_ELF_Revil_Dec_2021_1
         hash1 = "a322b230a3451fd11dcfe72af4da1df07183d6aaf1ab9e062f0e6b14cf6d23cd"
         hash2 = "f864922f947a6bb7d894245b53795b54b9378c0f7633c521240488e86f60c2c5"
         hash3 = "ea1872b2835128e3cb49a0bc27e4727ca33c4e6eba1e80422db19b505f965bc4"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Sodinokibi"
    strings:
         $s1 = { 48 83 ec 30 48 89 7d e8 48 89 75 e0 48 89 55 d8 48 8b 45 e8 48 83 c0 28 48 89 c7 e8 [2] ff ff eb 1b 48 8b 45 e8 48 8d 50 28 48 8b 45 e8 48 83 e8 80 48 89 d6 48 89 c7 e8 [2] ff ff 48 8b 45 e8 48 89 c7 e8 17 ff ff ff 85 c0 74 16 48 8b 45 e8 8b 40 24 85 c0 75 0b 48 8b 45 e8 8b 40 20 85 c0 74 bf 48 8b 45 e8 8b 40 24 85 c0 75 0b 48 8b 45 e8 8b 40 20 85 c0 74 1a 48 8b 45 e8 48 83 c0 28 48 89 c7 e8 [2] ff ff b8 ff ff ff ff e9 9c 00 00 00 48 8b 45 e8 48 89 c7 e8 a1 fe ff ff 89 45 fc 48 8b 45 e8 48 8b 48 10 48 8b 45 e8 8b 40 1c 48 63 d0 48 89 d0 48 01 c0 48 01 d0 48 c1 e0 03 48 01 c8 48 89 45 f0 48 8b 45 f0 48 8b 55 e0 48 89 10 48 8b 45 d8 48 89 c7 e8 e1 fe ff ff 48 8b 55 f0 48 89 42 08 48 8b 45 e8 8b 40 1c 8d 50 01 48 8b 45 e8 8b 48 04 89 d0 99 f7 f9 48 8b 45 e8 89 50 1c }

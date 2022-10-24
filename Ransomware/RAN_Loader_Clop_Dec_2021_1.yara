@@ -6,7 +6,7 @@ rule RAN_Loader_Clop_Dec_2021_1
         date = "2021-12-20"
         reference = "Internal Research"
         hash1 = "e805dd0124b9f062f6b5bc9de627eabc601b9d6e8ffe1d90ee552a1ece598a89"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "TA505"
         level = "Experimental"
     strings:

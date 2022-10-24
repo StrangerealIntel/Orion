@@ -7,7 +7,7 @@ rule RAN_ALPHV_Apr_2022_1 : alphav blackcat ransomware
         reference = "Internal Research"
         hash1 = "6229f6de17bf83d824249a779b3f2a030cb476133ab8879c0853bab4fdf9c079"
         hash2 = "847fb7609f53ed334d5affbb07256c21cb5e6f68b1cc14004f5502d714d2a456"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "BlackCat"
     strings:
         $s1 = { 68 [3] 00 6a 00 6a 00 e8 [3] 00 85 c0 0f 84 [2] 00 00 89 ?? 31 c0 f0 0f b1 [5] 0f 84 ?? fe ff ff 89 c6 ?? e8 [3] 00 89 ?? e9 ?? fe ff ff 68 [3] 00 ff 35 [4] e8 [3] 00 85 c0 0f 84 [2] 00 00 }

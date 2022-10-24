@@ -8,7 +8,7 @@ rule APT_APT23_NeraPack_Dec_2021_1
         hash1 = "3ad24a438b9a67e4eff7ca7d34b06d5efc24b824e3e346488d534532faa619da"
         hash2 = "a64e0c21494811ededf5d8af41b00937c1d5787d63dfcc399a7f32c19a553c99"
         hash3 = "321febf2bc5603b58628e3a82fb063027bf175252a3b30869eccb90a78e59582"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "APT23"
    strings:
         $s1 = { 00 00 0a 72 ?? 00 00 70 28 ?? 00 00 0a [6] 00 }

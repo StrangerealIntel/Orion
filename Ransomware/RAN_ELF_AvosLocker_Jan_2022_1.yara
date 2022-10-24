@@ -11,7 +11,7 @@ rule RAN_ELF_AvosLocker_Jan_2022_1
         // old from January 2021
         hash2 = "0cd7b6ea8857ce827180342a1c955e79c3336a6cf2000244e5cfd4279c5fc1b6"
         hash3 = "7c935dcd672c4854495f41008120288e8e1c144089f1f06a23bd0a0f52a544b1"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "RAAS"
     strings:
         $s1 = { bf [2] 4f 00 31 c0 e8 [2] ff ff bf [2] 4f 00 e8 [2] ff ff bf [3] 00 e8 [2] ff ff bf [3] 00 e8 [2] ff ff [20-26] 89 [3] ff ff [0-8] 48 83 e0 f0 48 29 c4 ?? 8d ?? 24 0f ?? 83 ?? f0  }

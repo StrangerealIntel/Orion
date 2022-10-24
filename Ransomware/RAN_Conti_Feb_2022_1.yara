@@ -9,7 +9,7 @@ rule RAN_Conti_Feb_2022_1 : Conti Ransomware
         hash2 = "ea524e8b0dd046561b59a8d4da5a122aeff02036c87bb03056437a1d0f584039"
         hash3 = "ed4afa874e75b7bac665b9bcbf1d8e1324d4f9263c862755101cd79bb087ad45"
         hash4 = "1dea453e5344898c9a66309bd6d1cf6e21c56eb1427c026aac84b14a6b23f7fc"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { f7 e9 03 d1 c1 fa 06 8b c2 c1 e8 1f 03 d0 6b c2 7f 2b c8 b8 09 04 02 81 83 c1 7f f7 e9 03 d1 c1 fa 06 8b c2 c1 e8 1f 03 d0 6b c2 7f 2b c8 88 4c 3c 39 48 ff c7 48 83 ff 24 72 ?? 0f b7 44 24 7c 48 8d 54 24 39 44 0f b7 4c 24 7a 48 8d 4d 80 44 0f b7 44 24 78 89 44 24 20 ff 15 [2] 01 00 8b d8 85 c0 74 32 48 8b 3d [2] 01 00 ba 0f 00 00 00 41 b8 14 b4 02 e8 44 8d 4a 50 e8 [2] fe ff 44 8d 04 1b 4c 89 74 24 20 4c 8d 4c 24 68 48 8b cf 48 8d 55 80 ff d0 48 8b 3d [2] 01 00 ba 0f 00 00 00 41 b8 14 b4 02 e8 44 8d 4a 50 e8 [2] fe ff 4c 8d 4c 24 68 4c 89 74 24 20 44 8b c6 48 8d 95 80 00 00 00 48 8b cf ff d0 48 8b 3d [2] 01 00 ba 0f 00 00 00 41 b8 14 b4 02 e8 44 8d 4a 50 e8 [2] fe ff 4c 8d 4c 24 68 4c 89 74 24 20 41 b8 04 }

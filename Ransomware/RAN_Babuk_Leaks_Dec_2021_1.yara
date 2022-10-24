@@ -7,7 +7,7 @@ rule RAN_Babuk_Leaks_Dec_2021_1
         reference = "Internal Research"
         hash1 = "049e53f72c8afa5ccb850429d55a00e2fbe799e68247fd13f5058146cf0f4cf8"
         hash2 = "c994996fdfcae2af56b9d726c31e4442cd5c157fdc9337a00fc0e84acf34f254"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Babuk"
     strings:
         $s1 = { 6a 2c 8b 4d f0 8b 14 8d 00 40 41 00 52 8b 45 e8 50 ff 15 20 50 41 00 89 45 fc 83 7d fc 00 0f 84 a6 01 00 00 8d 4d f4 51 6a 24 8d 55 b8 52 6a 00 8b 45 fc 50 ff 15 00 50 41 00 85 c0 0f 84 7e 01 00 00 83 7d bc 01 0f 84 74 01 00 00 83 7d bc 03 0f 84 6a 01 00 00 8d 4d dc 51 8d 55 f4 52 6a 00 8b 45 f8 50 6a 01 8b 4d fc 51 ff 15 08 50 41 00 85 c0 0f 85 ea 00 00 00 ff 15 ec 50 41 00 3d ea 00 00 00 0f 85 d9 00 00 00 8b 55 f4 52 e8 84 e5 00 00 83 c4 04 89 45 f8 83 7d f8 00 0f 84 c0 00 00 00 8d 45 dc 50 8d 4d f4 51 8b 55 f4 52 8b 45 f8 50 6a 01 8b 4d fc 51 ff 15 08 50 41 00 85 c0 0f 84 90 00 00 00 6b 75 f0 24 03 75 f8 b9 09 00 00 00 8d bd 70 ff ff ff f3 a5 6a 24 8b 95 70 ff ff ff 52 8b 45 e8 50 ff 15 20 50 41 00 89 45 ec 83 7d ec 00 }

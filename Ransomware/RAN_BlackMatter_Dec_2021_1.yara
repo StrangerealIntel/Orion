@@ -9,7 +9,7 @@ rule RAN_BlackMatter_Dec_2021_1
         hash2 = "2aad85dbd4c79bd21c6218892552d5c9fb216293a251559ba59d45d56a01437c"
 	hash3 = "730f2d6243055c786d737bae0665267b962c64f57132e9ab401d6e7625c3d0a4"
 	hash4 = "8eada5114fbbc73b7d648b38623fc206367c94c0e76cb3b395a33ea8859d2952"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "BlackMatter"
     strings:
         $s1 = { 8d 85 70 ff ff ff 83 c0 0f 83 e0 f0 89 85 b8 fe ff ff 8d 85 e0 fe ff ff 83 c0 0f 83 e0 f0 89 85 b4 fe ff ff 8d 85 c0 fe ff ff 83 c0 0f 83 e0 f0 89 85 bc fe ff ff 8b 75 08 8b bd b8 fe ff ff 0f 10 06 0f 10 4e 10 0f 10 56 20 0f 10 5e 30 0f 10 66 40 0f 10 6e 50 0f 10 76 60 8b 46 70 8b 4e 74 8b 56 78 8b 9d bc fe ff ff 89 03 89 4b 04 89 53 08 d1 c0 c1 c9 03 d1 c2 33 c1 33 c2 89 43 0c 0f 10 3b 66 0f 7f 07 66 0f 7f 4f 10 66 0f 7f 57 20 66 0f 7f 5f 30 66 0f 7f 47 40 66 0f 7f 4f 50 66 0f 7f 57 60 66 0f 7f 5f 70 81 7d 14 80 00 00 00 73 5b 66 0f ef c0 8b 85 b4 fe ff ff 66 0f 7f 00 66 0f 7f 40 10 66 0f 7f 40 20 66 0f 7f 40 30 66 0f 7f 40 40 66 0f 7f 40 50 66 0f 7f 40 60 66 0f 7f 40 70 8b 95 b4 fe ff ff 8b 5d 0c 8b 4d 14 8a 44 0b ff 88 44 0a ff 49 85 c9 75 f3 8b 5d 10 89 55 0c 89 55 10 8b }
