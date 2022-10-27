@@ -9,7 +9,7 @@ rule RAN_Vovabol_Apr_2022_1 : vovabol ransomware
         hash2 = "3e4828a46b84a5cc0e095cc017e79a512f5f7deeefe39ddf073e527be66fcf56"
         hash3 = "7d6d38f2cbe320aff29eb02998476e731d02ca27ca0e2f79063b207fc10229e8"
         hash4 = "e4defd8a187a513212cb19c9f2a800505395e66d9cd9eb3a96c291060224e7dd"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
     strings:
         $s1 = { 68 [2] 43 00 ff 15 ?? 10 40 00 89 [5-11] 08 00 00 00 6a 00 8d [3-6] ff 15 ?? 10 40 00 dd 9d [1-2] ff ff [0-1] 8d 4d ?? ff 15 [2] 40 00 8d }

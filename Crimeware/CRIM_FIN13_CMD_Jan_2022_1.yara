@@ -9,7 +9,7 @@ rule CRIM_FIN13_CMD_Jan_2022_1 : fin13 command execution
         hash2 = "a54b3b03910ed298fa644c495937d5fd9dfe46b8b05404440b572394c5ba5a6c"
         hash3 = "7d82a56cacebf8331f335dfbbbc76bc68033489037ae16e862bc56bf2088de77"
         hash4 = "ffc85e5a01780455adcf5762df7452d27c05da75b9162870431ebc470608b73b"
-        tlp = "clear"
+        tlp = "Clear"
         adversary = "fin13"
     strings:
         $s1 = { 6e 65 77 20 50 72 6f 63 65 73 73 42 75 69 6c 64 65 72 28 20 63 6f 6d 6d 61 6e 64 20 29 3b }

@@ -8,7 +8,7 @@ rule RAN_Lockbit_Dec_2021_1
         hash1 = "786a4475e703e5c8d3d5cf05ca7071c579f856a1eb9afb3e4df359e7932b7170"
         hash2 = "e216372e4328f1cf5cf39a73540b508adc8d777fef90ca77af635c2331deb5cc"
         hash3 = "bdc2801e747ee4dd2b50b1ecd3fa3eb53b6c8101ec37eff8d18e485a7f4a7bd0"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { 8b 35 10 ?? 4f 00 8d 45 fc 50 6a 00 57 6a 29 ff d6 85 c0 75 34 8b 4d fc e8 [2] 06 00 8b d8 89 5d d8 85 db 0f 84 47 ff ff ff 8d 45 fc 50 53 57 6a 29 ff d6 85 c0 0f 84 35 ff ff ff 8d 45 e4 50 53 6a 00 ff 15 0c ?? 4f }

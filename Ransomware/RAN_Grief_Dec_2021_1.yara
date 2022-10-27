@@ -7,7 +7,7 @@ rule RAN_Grief_Dec_2021_1 {
         hash1 = "b21ad8622623ce4bcdbf8c5794ef93e2fb6c46cd202d70dbeb088ea6ca4ff9c8"
         hash2 = "dda4598f29a033d2ec4f89f4ae687e12b927272462d25ca1b8dec4dc0acb1bec"
         hash3 = "c984451734c5ce00b12ac43741a59e52cb2e2949c703373e817275b85b8b2f61"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Grief"
         level = "Experimental"
    strings:

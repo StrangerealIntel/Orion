@@ -10,7 +10,7 @@ rule APT_Worok_PNGLoad_Sept_2022_1 : pngload dotnet loader worok
         // from retrohunt
         hash2 = "69f8f652fc9bd4443121e9b1fe54a1d8a980736455ba448c9b0c4764fca65a72"
         hash3 = "95d2d272198c709b90d2bd49d84728f4bb58143063e1e785e747742d42970336"
-        tlp = "clear"
+        tlp = "Clear"
         adversary = "Worok"
    strings:
         $s1 = { 05 00 30 00 00 00 06 00 00 11 2b 09 28 [4] 14 16 9a 26 16 2d f9 72 a6 01 00 70 6f 5e 00 00 0a 26 02 28 5f 00 00 0a 0a 28 60 00 00 0a 06 16 06 8e 69 6f 61 00 00 }

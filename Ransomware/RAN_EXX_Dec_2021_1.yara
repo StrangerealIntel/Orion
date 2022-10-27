@@ -7,7 +7,7 @@ rule RAN_EXX_Dec_2021_1
         date = "2021-12-23"
         hash1 = "c0f07b493cc32ffcbb4ca1ca92f5752c4040b1d0be7b69981c22a27f69cfb890"
         hash2 = "fa28436aaf459d16215dd2d96ea5756c09198216c52d90a7a20abde4e826909b"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "EXX"
    strings:
         $s1 = { 68 00 00 00 f0 6a 01 53 53 8d 45 f8 50 ff 15 04 60 ?? 00 85 c0 74 6a 8b 45 f8 85 c0 74 63 8d 4d fc 51 53 53 68 03 80 00 00 50 ff 15 08 60 ?? 00 85 c0 74 4d 8b 45 fc 85 c0 74 54 8b 55 08 53 52 56 50 ff 15 10 60 ?? 00 85 c0 74 35 8b 55 fc 8b 35 00 60 ?? 00 53 8d 45 f0 50 8d 4d f4 51 6a 04 52 ff d6 85 }

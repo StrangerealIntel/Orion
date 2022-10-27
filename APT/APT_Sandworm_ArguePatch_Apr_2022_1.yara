@@ -10,7 +10,7 @@ rule APT_Sandworm_ArguePatch_Apr_2022_1 : apt arguepatch loader sandworm
         hash1 = "8f096e3b5ecd2aca35794a85f8b76093b3968a8737e87e8008710b4014c779e3"
         hash2 = "cda9310715b7a12f47b7c134260d5ff9200c147fc1d05f030e507e57e3582327"
         hash3 = "750cbba9a36859b978bfe5f082be44815027bc74dc2728210abbcba828ce6f56"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Sandworm"
         level = "Fully Experimental" // not tested in HA, some trouble are reported in the Yara submission
    strings:

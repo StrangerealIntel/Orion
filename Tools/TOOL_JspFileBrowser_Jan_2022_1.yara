@@ -7,7 +7,7 @@ rule TOOL_JspFileBrowser_Jan_2022_1 : tool fin13
         date = "2022-01-07"
         reference = "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf"
         hash1 = "cc07921318364e6f3258c3653c8b8c066f252c7c90a6c0e245890f96c2ec61b8"
-        tlp = "clear"
+        tlp = "Clear"
         adversary = "fin13"
     strings:
         $s1 = { 20 28 69 73 50 61 63 6b 65 64 28 6e 61 6d 65 2c 20 74 72 75 65 29 29 20 65 6c 69 6e 6b 20 3d 20 61 68 72 65 66 20 2b 20 22 75 6e 70 61 63 6b 66 69 6c 65 3d 22 }

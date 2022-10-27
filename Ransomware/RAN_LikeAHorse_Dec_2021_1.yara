@@ -9,7 +9,7 @@ rule RAN_LikeAHorse_Dec_2021_1
         hash3 = "6b0c2165483426a7ca50fbdc7b9403f75e03bc0e1117837054a36c0a98a400cf"
         hash4 = "7f4dba54da91c99423b5862088da784363c7edc76d63e26d72270cd1fdf6dbec"
         date = "2021-12-28"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
     strings:
         $s1 = { 42 67 49 41 41 41 43 6b 41 41 42 53 55 30 45 78 41 43 }  

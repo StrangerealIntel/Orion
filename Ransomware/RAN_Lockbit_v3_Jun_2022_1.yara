@@ -8,7 +8,7 @@ rule RAN_Lockbit_v3_Jun_2022_1 : lockbit ransomware
         hash1 = "80e8defa5377018b093b5b90de0f2957f7062144c83a09a56bba1fe4eda932ce"
         hash2 = "a56b41a6023f828cccaaef470874571d169fdb8f683a75edd430fbd31a2c3f6e"
         hash3 = "391a97a2fe6beb675fe350eb3ca0bc3a995fda43d02a7a6046cd48f042052de5"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { b8 fc fd fe ff b9 40 00 00 00 8b 5d 10 89 44 8b fc 2d 04 04 04 04 49 75 f4 8b 7d 0c be 40 00 00 00 33 db 55 8b 6d 10 8b c1 33 d2 f7 f6 8a c1 8a 14 17 02 54 05 00 02 d3 8a 5c 15 00 8a 54 1d 00 86 54 05 00 88 54 1d 00 41 81 f9 00 03 00 00 75 d6 5d 33 c9 8b 7d 08 be 20 00 00 00 55 8b 6d 10 8b c1 33 d2 f7 f6 8a c1 8a 14 17 02 54 05 00 02 d3 8a 5c 15 00 8a 54 1d 00 86 54 05 00 88 54 1d 00 41 81 f9 00 03 00 00 75 d6 5d 33 c9 8b 7d 0c be 40 00 00 00 55 8b 6d 10 8b c1 33 d2 f7 f6 8a c1 8a 14 17 02 54 05 00 02 d3 8a 5c 15 00 8a 54 1d 00 86 54 05 00 88 54 1d 00 41 81 f9 00 03 }

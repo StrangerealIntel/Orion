@@ -7,7 +7,7 @@ rule RAN_Koxic_Jan_2022_1
       date = "2022-01-30" 
       hash1 = "7a5e20e021dc29a07cad61f4d0bdb98e22749f13c3ace58220bfe978908bb7e9"
       hash2 = "95202fe13309a9b1651766298c833b21494a92f0b210fc6469d79d3fa444db81"
-      tlp = "white"
+      tlp = "Clear"
       adversary = "-"
    strings:
       $s1 = { c7 45 9c [2] 45 00 c7 45 a0 [2] 45 00 c7 45 a4 [2] 45 00 c7 45 a8 [2] 45 00 c7 45 ac [2] 45 00 c7 45 b0 [2] 45 00 c7 45 b4 [2] 45 00 c7 45 b8 [2] 45 00 c7 45 bc [2] 45 00 c7 45 c0 [2] 45 00 c7 45 c4 [2] 45 00 c7 45 c8 [2] 45 00 c7 45 cc [2] 45 00 c7 45 d0 [2] 45 00 c7 45 d4 [2] 45 00 c7 45 d8 [2] 45 00 c7 45 dc [2] 45 00 c7 45 e0 [2] 45 00 c7 45 e4 [2] 45 00 c7 45 f8 00 00 00 00 eb 09 8b 4d f8 83 c1 01 89 4d f8 83 7d f8 13 0f 83 b7 00 00 00 6a 44 6a 00 8d 95 48 ff ff ff 52 e8 [2] 01 00 83 c4 0c c7 85 48 ff ff ff 44 00 00 00 6a 10 6a 00 8d 45 e8 50 e8 [2] 01 00 83 c4 0c 8b 4d f8 8b 54 8d 9c 52 8d 85 f0 fc ff ff 50 ff 15 70 f0 42 00 68 [2] 46 00 8d 8d f0 fc ff ff 51 ff 15 54 f0 42 00 68 [2] 45 00 8d 95 f0 fc ff ff 52 ff 15 54 f0 42 00 8d 45 e8 50 8d 8d 48 ff ff ff 51 6a 00 6a 00 68 00 00 00 08 6a 00 6a 00 6a 00 8d 95 f0 fc ff ff 52 6a 00 ff 15 6c f0 42 00 89 45 98 6a ff 8b 45 e8 50 ff 15 40 f0 42 00 8b 4d e8 51 ff 15 58 f0 42 00 8b 55 ec 52 }

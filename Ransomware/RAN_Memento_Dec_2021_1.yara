@@ -5,7 +5,7 @@ rule RAN_Memento_Dec_2021_1 {
         reference = "Internal Research"
         date = "2021-12-22"
         hash1 = "09a0caadc4df3d4278368f94f52007894c2b51d3785d985cb8e42646e8a33b68"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Memento"
         level = "Experimental"
    strings:

@@ -7,7 +7,7 @@ rule RAN_Black_Basta_Apr_2022_1 : ransomware blackbasta
         date = "2022-04-27"
         hash1 = "7883f01096db9bcf090c2317749b6873036c27ba92451b212b8645770e1f0b8a"
         hash2 = "5d2204f3a20e163120f52a2e3595db19890050b2faa96c6cba6b094b0a52b0aa"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { 81 ec ?? 00 00 00 a1 [2] 48 00 33 c5 89 45 f0 [0-2] 50 8d 45 f4 64 a3 00 00 00 00 [0-3] c7 45 fc 00 00 00 00 8d [2] ff ff ff }

@@ -7,7 +7,7 @@ rule RAN_Diavol_Dec_2021_2
         reference = "Internal Research"
         hash1 = "ee13d59ae3601c948bd10560188447e6faaeef5336dcd605b52ee558ff2a8588"
         hash2 = "b3da793a00eebaf8987fe2b759369e3d7ff02d91111c219c707bcb9709357637"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Diavol"
     strings:
         $s1 = { 48 83 ec 68 48 8b 05 c9 4e 01 00 48 33 c4 48 89 44 24 48 48 83 3d 71 62 01 00 ff 0f 84 c0 00 00 00 48 8d 4c 24 38 48 89 5c 24 60 ff 15 5b ff 00 00 0f b7 54 24 46 0f b7 44 24 44 44 0f b7 4c 24 42 44 0f b7 44 24 40 48 8b 0d 66 be 01 00 89 54 24 28 48 8d 15 ab 2b 01 00 89 44 24 20 ff 15 59 01 01 00 4c 8b 44 24 70 b9 f6 27 00 00 48 63 d8 4c 8d 4c 24 78 2b cb 48 63 d1 48 8b 0d 33 be 01 00 48 8d 0c 59 e8 26 0d 00 00 44 8b d8 83 f8 ff 74 4a 48 8b 15 1b be 01 00 33 c0 48 83 c9 ff 48 89 7c 24 58 48 8b fa 45 8d 04 1b 66 f2 af 8b 0d 7c 2b 01 00 4c 8d 4c 24 30 89 4f fe 48 8b 0d c9 61 01 00 47 8d 44 00 02 89 44 24 30 48 89 44 24 20 ff 15 7d fe 00 00 48 8b }

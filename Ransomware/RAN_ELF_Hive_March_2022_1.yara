@@ -9,7 +9,7 @@ rule RAN_ELF_Hive_March_2022_1 : elf hive v5 x64
         hash1 = "597537addd7325e32b5da06c67f925daeeb8ed57e9bf46a9037781d636dac909"
         hash2 = "058aabdef6b04620902c4354ce40c2e2d8ff2c0151649535c66d870f45318516"
         hash3 = "2e52494e776be6433c89d5853f02b536f7da56e94bbe86ae4cc782f85bed2c4b"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { ff 54 1d 00 84 c0 75 43 48 83 c3 10 49 83 c7 ff 75 c6 48 8b 54 24 40 eb 02 31 d2 48 89 d1 48 c1 e1 04 49 03 0c 24 31 c0 49 3b 54 24 08 48 0f 42 c1 73 1c 48 8b }

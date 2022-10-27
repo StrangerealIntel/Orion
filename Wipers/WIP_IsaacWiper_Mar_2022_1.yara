@@ -7,7 +7,7 @@ rule WIP_IsaacWiper_Mar_2022_1 : wiper isaacwiper
         date = "2022-03-03"
         hash1 = "13037b749aa4b1eda538fda26d6ac41c8f7b1d02d83f47b0d187dd645154e033"
         hash2 = "7bcd4ec18fc4a56db30e0aaebd44e2988f98f7b5d8c14f6689f650b4f11e16c0"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "-"
    strings:
         $s1 = { 6b c2 68 8d 8c 24 98 01 00 00 42 89 94 24 28 0c 00 00 ba 68 00 00 00 6a 68 53 03 c8 e8 1f 5e 00 00 8b bc 24 30 0c 00 00 8d 8c 24 a0 01 00 00 83 c4 08 4f 6b c7 68 6a 00 6a 00 89 44 24 34 03 c1 50 68 20 35 00 10 6a 00 6a 00 ff 15 48 60 02 10 89 44 24 28 85 c0 74 36 8b 84 24 98 0c 00 00 8d 8c 24 30 0c 00 00 6a 04 ba 04 00 00 00 8d 0c 81 40 89 84 24 9c 0c 00 00 8d 44 24 2c 50 e8 be 5d 00 00 8b 94 24 30 0c 00 00 83 c4 08 eb 4c 8b 94 24 28 0c 00 00 8d 42 ff 3b f8 74 36 2b d7 8d 8c 24 98 01 00 00 8b 7c 24 2c 03 cf 6b c2 68 ba 90 0a 00 00 2b d7 83 e8 68 50 8d 84 24 04 02 00 00 03 c7 50 e8 78 5d 00 00 8b 94 24 30 0c 00 00 83 c4 08 4a 89 94 24 28 0c }

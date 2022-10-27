@@ -8,7 +8,7 @@ rule RAN_SafeSound_Jul_2022_1 : safeSound ransomware
         hash1 = "8f62d06bbcc5c2ef2db32f0079903759ed296b80ed6d2795abdf730346f05fde"
         hash2 = "90ed51fea616dedcb23c6dbd131f6f216ec507c0399c8aae4ee55c4501f77270"
         hash3 = "0a82b37e1a7cb6d8e8379796e929774b30fd93a7438782df2bd6b66cad0626a2"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
     strings:
         $s1 = "\\SafeSound.hash" ascii

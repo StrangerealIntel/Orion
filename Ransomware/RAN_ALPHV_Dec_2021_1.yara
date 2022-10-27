@@ -8,7 +8,7 @@ rule RAN_ALPHV_Dec_2021_1
         hash1 = "3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83"
         hash2 = "cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae"
         hash3 = "7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "BlackCat"
     strings:
         $s1 = { ff b4 24 [2] 00 00 6a 00 ff 35 ?? e1 ?? 00 e8 [3] 00 8d 8c 24 [2] 00 00 ba [3] 00 68 c0 1f 00 00 e8 [3] ff 83 c4 04 ?? bc 24 [2] 00 00 }

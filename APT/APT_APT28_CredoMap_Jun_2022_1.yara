@@ -10,7 +10,7 @@ rule APT_APT28_CredoMap_Jun_2022_1 : credomap apt28
         hash2 = "710faabf217a5cd3431670558603a45edb1e01970f2a8710514c2cc3dd8c2424"
         // V2
         hash3 = "2318ae5d7c23bf186b88abecf892e23ce199381b22c8eb216ad1616ee8877933"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "APT28"
    strings:
         $s1 = { 00 20 00 02 00 00 8d ?? 00 00 01 0a 28 ?? 00 00 0a 1b 8d ?? 00 00 01 25 16 72 [2] 00 70 a2 25 17 02 a2 25 18 72 [2] 00 70 a2 25 19 03 a2 25 1a 72 [2] 00 70 a2 28 ?? 00 00 0a 6f ?? 00 00 0a 0b 7e ?? 00 00 04 07 16 07 8e 69 6f ?? 00 00 0a 00 7e ?? 00 00 04 06 16 20 00 02 00 00 6f ?? 00 00 0a 26 }

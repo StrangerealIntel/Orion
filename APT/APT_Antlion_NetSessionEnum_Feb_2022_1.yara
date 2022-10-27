@@ -7,7 +7,7 @@ rule APT_Antlion_NetSessionEnum_Feb_2022_1
         date = "2022-02-05"
         hash1 = "48d41507f5fc40a310fcd9148b790c29aeb9458ff45f789d091a9af114f26f43"
         hash2 = "-"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "Antlion"
    strings:
         $s1 = { 8d 7c 24 0d c6 44 24 0c 00 f3 ab 8b 8c 24 98 13 00 00 8d 54 24 0c 66 ab aa 8d 84 24 9c 13 00 00 50 51 52 ff 15 3c 20 40 00 83 c4 0c 6a 00 68 80 00 00 00 6a 04 6a 00 6a 01 68 00 00 00 c0 68 10 30 40 00 ff 15 0c 20 40 00 8b f0 85 f6 74 3e 6a 02 6a 00 6a 00 56 ff 15 08 20 40 00 8d 44 24 08 6a 00 50 8d 7c 24 14 83 c9 ff 33 c0 f2 ae f7 d1 49 c7 44 24 10 00 00 00 00 51 8d 4c 24 18 51 56 ff 15 04 20 40 00 56 ff 15 }

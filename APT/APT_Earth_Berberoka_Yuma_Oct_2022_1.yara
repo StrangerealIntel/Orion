@@ -8,7 +8,7 @@ rule APT_Earth_Berberoka_Yuma_Oct_2022_1 : diceyf yuma downloader
       hash1 = "0c808ffffa946931b0e6c90346690392e01aee9b610d83385af2290f8df71001"
       hash2 = "18bc154c0fe1399f6e1fce92c1ec3debd3a59fde09d9c33398ae097eee311f67"
       hash3 = "9ba967dd0fc99efb64d5074d6491834f5b514340446734a07e46a1cf846d3de5"
-      tlp = "clear"
+      tlp = "Clear"
       adversary = "Earth Berberoka"
    strings:
       $s1 = { 00 00 0a 26 2a 06 7b ?? 00 00 04 72 [2] 00 70 6f ?? 00 00 0a [4-7] 00 00 0a 6f ?? 00 00 0a 0d 06 7b ?? 00 00 04 72 [2] 00 70 6f ?? 00 00 0a 26 00 [2] ?? 00 00 }

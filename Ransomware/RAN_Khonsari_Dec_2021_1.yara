@@ -6,7 +6,7 @@ rule RAN_Khonsari_Dec_2021_1
         date = "2021-12-21"
         reference = "Internal Research"
         hash1 = "f2e3f685256e5f31b05fc9f9ca470f527d7fdae28fa3190c8eba179473e20789"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Khonsari"
         level = "Experimental"
     strings:

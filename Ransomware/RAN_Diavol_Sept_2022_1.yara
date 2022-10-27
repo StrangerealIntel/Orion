@@ -8,7 +8,7 @@ rule RAN_Diavol_Sept_2022_1 : ransomware diavol
         hash1 = "aac969e36686f8f8517c111d30f8fb3b527988ebd31b3b762aec8d46e860eb9d"
         hash2 = "fb5ee29b98446d34520bf04a82996eefec3b5692710c5631458da63ef7e44fe4"
         hash3 = "708806f5e2e8bfa3d1e911e391ff2ccf1edcac05cc1df80439b8b867253423df"
-        tlp = "clear"
+        tlp = "Clear"
         adversary = "RAAS"
    strings:
         $s1 = { ba 04 01 00 00 48 2b d1 b9 04 01 00 00 48 2b ca 48 8d 44 54 60 74 37 4c 8d 4c 24 50 48 8d 94 11 fb fe ff 7f 4c 2b c8 48 85 d2 74 1d 45 0f b7 04 01 66 45 85 c0 74 12 66 44 89 00 48 83 c0 02 48 ff ca 48 ff c9 75 e0 eb 05 48 85 c9 75 04 48 83 e8 02 66 89 18 48 8d 95 70 01 00 00 48 8d 4c 24 30 41 b8 04 01 00 00 ff 15 [2] 01 00 4c 8d 4c 24 60 4c 8d 85 70 01 00 00 33 d2 33 c9 89 5c 24 28 48 89 5c 24 20 ff 15 ?? 3b 01 00 48 8b 8d 80 03 00 00 48 33 cc e8 58 05 00 00 48 8b 9c 24 a0 04 00 00 48 81 }

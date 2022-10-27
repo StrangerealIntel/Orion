@@ -7,7 +7,7 @@ rule TOOL_MiniWebCmdShell_Jan_2022_1 : tool webshell fin13
         date = "2022-01-07"
         reference = "https://f.hubspotusercontent30.net/hubfs/8776530/Sygnia-%20Elephant%20Beetle_Jan2022.pdf"
         hash1 = "a73f75ab7a2408f490c721c233583316bd3eb901bd32f2a0bf04282fa6a4219c"
-        tlp = "clear"
+        tlp = "Clear"
         adversary = "fin13"
     strings:
         $s1 = { 3c 66 6f 72 6d 20 6f 6e 73 75 62 6d 69 74 3d 22 72 65 74 75 72 6e 20 73 74 61 72 74 4d 61 67 69 63 28 29 22 3e }

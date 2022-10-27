@@ -7,7 +7,7 @@ rule RAN_NightSky_Jan_2022_1
         reference = "Internal Research"
         hash1 = "8c1a72991fb04dc3a8cf89605fb85150ef0e742472a0c58b8fa942a1f04877b0"
         hash2 = "-"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
         level = "Experimental"
     strings:

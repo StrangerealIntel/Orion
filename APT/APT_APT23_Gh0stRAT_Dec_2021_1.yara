@@ -7,7 +7,7 @@ rule APT_APT23_Gh0stRAT_Dec_2021_1
         date = "2021-12-26"
         hash1 = "996aa9c937b610efd1ab5c0ab173fc9fa78a70b423a193c3e2b505519bde7807"
         hash2 = "7e72ee1052b018250810e41ac01065ebd833293ecfc363415b7d19dd31734d49"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "APT23"
    strings:
         $s1 = { b9 3f 00 00 00 33 c0 8d bc 24 c5 00 00 00 c6 84 24 c4 00 00 00 00 f3 ab 8d 8c 24 ec 02 00 00 8d 94 24 c4 00 00 00 66 ab 51 68 c4 69 41 00 52 aa ff d5 8b 35 f0 f0 40 00 83 c4 0c 8d 84 24 c4 00 00 00 6a 00 50 ff d6 68 b8 0b 00 00 ff d3 b9 40 00 00 00 33 c0 8d bc 24 c4 00 00 00 68 94 69 41 00 f3 ab 8d 8c 24 c8 00 00 00 51 ff d5 83 c4 08 33 db 8d 94 24 c4 00 00 00 53 52 ff d6 b9 40 00 00 00 33 c0 8d bc 24 c4 00 00 00 68 1c 69 41 00 f3 ab 8d 84 24 }

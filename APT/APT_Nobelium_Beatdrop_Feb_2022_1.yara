@@ -8,7 +8,7 @@ rule APT_Nobelium_Beatdrop_Feb_2022_1 : nobelium beatdrop downloader
         hash1 = "2f11ca3dcc1d9400e141d8f3ee9a7a0d18e21908e825990f5c22119214fbb2f5"
         hash2 = "95bbd494cecc25a422fa35912ec2365f3200d5a18ea4bfad5566432eb0834f9f"
         hash3 = "8bdd318996fb3a947d10042f85b6c6ed29547e1d6ebdc177d5d85fa26859e1ca"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "Nobelium"
    strings:
         $s1 = { 48 81 ec 58 04 00 00 31 db 48 8b 3d 3a ea 03 00 89 d8 49 89 ce 49 89 d5 48 8b 0d 1b da 02 00 4c 89 c6 4c 89 cd f3 aa 45 31 c9 c7 44 24 20 00 00 00 00 45 31 c0 ba 01 00 00 00 48 c7 05 0d ea 03 00 00 00 00 00 48 8d 0d 2e ea 02 00 ff 15 [2] 04 00 49 89 c4 48 85 c0 0f 84 6d 01 00 00 4c 89 ea 45 31 c9 41 b8 bb 01 00 00 48 89 c1 48 c7 44 24 38 01 00 00 00 c7 44 24 30 00 00 00 00 c7 44 24 28 03 00 00 00 48 c7 44 24 20 00 00 00 00 ff 15 [2] 04 00 49 89 c5 48 85 c0 0f 84 21 01 00 00 4c 89 f2 45 31 c9 49 89 f0 48 89 c1 48 c7 44 24 38 01 00 00 00 c7 44 24 30 00 00 c0 44 48 c7 44 24 28 00 00 00 00 48 c7 44 24 20 00 00 00 00 }

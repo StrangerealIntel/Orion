@@ -11,7 +11,7 @@ rule RAN_Wannahusky_Nov_2021_1 : wannahusky ransomware
         hash3 = "d6fbef917a7026b64946a571d7071075819b7ccc2cf7027352231017af14975a"
         // x64 version
         hash4 = "9538bd57ad50c41ab2655963785326085f5138b7746c41e1fd6c3b7b2a269b99"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
     strings:
         $s1 = { 83 ec 3c 89 4d d4 39 f3 8b 3d 88 [2] 00 7c 42 c7 04 24 01 00 00 00 ff d7 c7 44 24 08 01 00 00 00 89 44 24 0c c7 44 24 04 01 00 00 00 c7 04 24 6f ?? 41 00 e8 [2] 00 00 c7 04 24 01 00 00 00 ff d7 89 04 24 e8 [2] 00 00 8d 65 f4 5b 5e 5f 5d c3 72 0f 8d 46 ff 89 1c 24 89 44 24 04 e8 [2] 00 00 8b 45 d4 8b 14 98 c7 04 24 01 00 00 00 89 55 d0 ff d7 c7 04 24 }

@@ -7,7 +7,7 @@ rule RAN_Cerber2021_Jan_2022_1
         reference = "https://www.bleepingcomputer.com/news/security/new-cerber-ransomware-targets-confluence-and-gitlab-servers/"
         hash1 = "078de7d019f5f1e546aa29af7123643bd250341af71506e6256dfee8f245a2a7"
         hash2 = "eba0482a5b1232db451b1a745dd8e99defb9f1194b070e2f5c20eeb251296a86"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "-"
     strings:
         $s1 = { 8d 8d ?? ff ff ff c6 45 fc 08 e8 [2] 00 00 8d }

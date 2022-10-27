@@ -8,7 +8,7 @@ rule RAN_Venus_Oct_2022_1 : venus ransomware
         hash1 = "ee036f333a0c4a24d9aa09848e635639e481695a9209474900eb71c9e453256b"
         hash2 = "fa7ba459236c7b27a0429f1961b992ab87fc8b3427469fd98bfc272ae6852063"
         hash3 = "52f7ace0de098c3c820416b601d62c4f56c9b20b569fa625bf242b625521f147"
-        tlp = "clear"
+        tlp = "Clear"
         adversary = "Unknown"
    strings:
         $s1 = { 57 68 00 01 00 00 e8 9e 07 00 00 8b 3d e8 a1 41 00 8b f0 68 ?? a5 41 00 68 ?? a5 41 00 68 ?? a5 41 00 68 ?? a5 41 00 56 89 75 f8 ff d7 83 c4 14 8d 45 f4 50 8d 45 fc 50 6a 00 68 06 00 02 00 6a 00 6a 00 6a 00 56 8b 35 08 a0 41 00 68 02 00 00 80 ff d6 ff 75 fc ff 15 a0 c8 43 00 8b 45 f8 68 [2] 41 00 50 68 ?? a6 41 00 50 ff d7 8b 7d f8 8d 45 f4 83 c4 10 50 8d 45 fc 50 6a 00 68 06 00 02 00 6a 00 6a 00 6a 00 57 68 02 00 00 80 ff d6 83 7d f4 02 75 10 ff 75 fc ff 15 18 a0 41 00 5f 5e 5b 8b e5 5d c3 53 ff 15 28 a1 41 00 03 c0 50 53 6a 01 6a 00 68 ?? a6 41 00 ff 75 fc e8 f7 b8 fe ff 83 c4 18 ff 75 fc ff 15 a0 c8 43 00 68 ?? a6 41 00 68 ?? a6 41 00 ff 15 88 a0 41 00 50 ff 15 90 a0 41 00 6a 00 6a 00 6a 00 68 00 00 00 }

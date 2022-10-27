@@ -8,7 +8,7 @@ rule APT_APT23_USBFerry_May_2020_1
         hash1 = "32299feded258d78323a7a23acd5463d908c3fbbd46842817b53ab9116587d64"
         hash2 = "a0e8c1ece844f18876c951b4360cef1c8e63d270ab5a8346e4a81cba36795838"
         hash3 = "90496241ffdbdd1592d0b8aba76d6f8616fc1093623c0d2c2a4fecc4199293cb"
-        tlp = "White"
+        tlp = "Clear"
         adversary = "APT23"
    strings:
         $s1 = { 00 00 48 8d 48 01 48 8d 15 [3] 00 e8 ?? 08 00 00 85 c0 75 e5 4c 8d 05 [3] 00 33 d2 33 c9 ff 15 [2] 00 00 48 89 05 [3] 00 ff 15 [2] 00 00 3d b7 00 00 00 0f 84 [2] 00 00 83 f8 }

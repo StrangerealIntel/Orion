@@ -8,7 +8,7 @@ rule APT_Earth_Berberoka_Korplug_Oct_2022_1 : diceyf korplug
       hash1 = "5a9468a87997f2363995e264505105f6a235b66543bb28635fb74f78704e9111"
       hash2 = "9aff1e12a1b447ca8ab3076f684716a859c906f9b2d0e870d59d0f06fc548d0d"
       hash3 = "a2a0ce67c239385c1ec1d5d29ff91a7daf91cf2b4368dc91d84dbb598becdc5d"
-      tlp = "clear"
+      tlp = "Clear"
       adversary = "Earth Berberoka"
    strings:
       $s1 = { 68 9c 78 42 00 52 ff d3 a1 ?? 75 43 00 83 c4 10 85 c0 75 31 68 ?? 85 42 00 ff 15 ?? 52 42 00 a3 ?? 75 43 00 85 c0 75 10 68 ?? 85 42 00 ff 15 44 53 42 00 a3 ?? 75 43 00 68 ?? 85 42 00 50 ff d7 a3 ?? 75 43 00 68 50 02 00 00 8d 8c 24 ec 04 00 00 6a 00 51 ff d0 83 c4 0c 8d 94 24 e8 04 00 00 52 8d 84 24 9c 00 00 00 50 ff 15 ?? 51 42 00 8b f0 83 fe ff 75 31 8b 94 24 90 00 00 00 8d 8c 24 98 02 00 00 51 52 ff 15 ?? 51 42 00 85 c0 0f 85 16 ff ff ff 8b 8c 24 90 00 00 00 51 ff 15 ?? 51 42 00 e9 c2 fd ff ff 68 d0 78 42 00 8d 84 24 9c 00 00 00 50 8d 8c 24 40 07 00 00 68 ec 78 42 00 51 ff d3 a1 ?? 75 43 00 83 c4 10 85 c0 }

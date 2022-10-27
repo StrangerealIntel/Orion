@@ -6,7 +6,7 @@ rule RAN_Intercobros_Dec_2021_1
         date = "2021-12-21"
         reference = "Internal Research"
         hash1 = "ade5780b02f010a91f0684089100035366af865caba9c6beb66a271ccc89f2ae"
-        tlp = "white"
+        tlp = "Clear"
         adversary = "Intercobros"
         level="Experimental"
     strings:
