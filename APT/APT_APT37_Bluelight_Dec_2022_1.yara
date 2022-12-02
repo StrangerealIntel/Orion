@@ -4,7 +4,7 @@ rule APT_APT37_Bluelight_Dec_2022_1 : apt37 bluelight
         description = "Detect the downloader agent Bluelight used by APT37 group"
         author = "Arkbird_SOLG"
         reference = "Internal Research"
-        date = "2022-12-11"
+        date = "2022-12-01"
         hash1 = "6f0feaba669466640fc87b77b7e64cf719644fed348b4faa015a2ffd467e8c41"
         hash2 = "ceed3bfc1f8ab82bebee93db7300cfed5bdc17fddd0401b8addbb55f48bedff3"
         hash3 = "e32c5d851cf23a6d3ecd224055619996d32210cc198ccd770494a902c788b481"
