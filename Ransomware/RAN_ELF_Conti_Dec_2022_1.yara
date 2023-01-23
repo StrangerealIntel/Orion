@@ -1,4 +1,4 @@
-rule RAN_ELF_Conti_Dec_2022_1
+rule RAN_ELF_Conti_Dec_2022_1 : ransomware conti elf
 {
     meta:
         description = "Detect ELF version of Conti ransomware"
