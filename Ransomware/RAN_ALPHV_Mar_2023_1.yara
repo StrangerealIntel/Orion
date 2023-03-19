@@ -1,9 +1,9 @@
-rule RAN_ALPHV_Mar_2022_1 : alphav blackcat ransomware
+rule RAN_ALPHV_Mar_2023_1 : alphav blackcat ransomware
 {
     meta:
         description = "Detect new variant of AlphV ransomware"
         author = "Arkbird_SOLG"
-        date = "2022-03-19"
+        date = "2023-03-19"
         // Updated with "ALPHV MORPH" variant 2
         reference = "https://twitter.com/rivitna2/status/1636891502562385920"
         hash1 = "62ae5ad22213d2adaf0e7cf1ce23ff47b996f60065244b63f361a22daed2bdda"
