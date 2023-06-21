@@ -3,7 +3,7 @@ rule APT_APT15_Graphican_Jun_2023_1 : apt apt15 backdoor graphican
    meta:
         description = "Detect the Graphican backdoor used by the apt15 group"
         author = "Arkbird_SOLG"
-        reference = "https://www.microsoft.com/security/blog/2022/07/27/untangling-knotweed-european-private-sector-offensive-actor-using-0-day-exploits/"
+        reference = "https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/flea-backdoor-microsoft-graph-apt15"
         date = "2023-06-21"
         hash1 = "4b78b1a3c162023f0c14498541cb6ae143fb01d8b50d6aa13ac302a84553e2d5"
         hash2 = "a78cc475c1875186dcd1908b55c2eeaf1bcd59dedaff920f262f12a3a9e9bfa8"
