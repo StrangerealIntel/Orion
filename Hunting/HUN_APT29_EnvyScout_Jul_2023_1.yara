@@ -3,7 +3,8 @@ rule HUN_APT29_EnvyScout_Jul_2023_1 : envyscout apt29 hunting
    meta:
         description = "Hunting rule for detect possible Envyscout malware used by the APT29 group by patterns already used in the past"
         author = "Arkbird_SOLG"
-        reference = "https://twitter.com/StopMalvertisin/status/1677192614985228288"
+        reference1 = "https://twitter.com/malwrhunterteam/status/1677023534294487049"
+        reference2 = "https://twitter.com/StopMalvertisin/status/1677192614985228288"      
         date = "2023-07-07"
         hash1 = "4875a9c4af3044db281c5dc02e5386c77f331e3b92e5ae79ff9961d8cd1f7c4f"
         tlp = "Clear"
